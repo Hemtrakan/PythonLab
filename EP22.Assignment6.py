@@ -10,16 +10,17 @@ hight = int(input("ป้อนส่วนสูงของคุณ (cm) : ")
 hight/=100
 
 bmi = weight/(hight**2)
-
+result=""
 print("BMI = ", bmi)
 
 if bmi < 18.50:
-    print("น้ำหนักน้อย / ผอม")
+    result="น้ำหนักน้อย / ผอม"
 elif bmi >= 18.50 and bmi <= 22.90:
-    print("ปกติ (สุขภาพดี)")
+    result="ปกติ (สุขภาพดี)"
 elif bmi >= 23  and bmi <= 24.90:
-    print("ท้วม / โรคอ้วนระดับ 1")
+    result="ท้วม / โรคอ้วนระดับ 1"
 elif bmi >= 25 and bmi <= 29.90:
-    print("อ้วน / โรคอ้วนระดับ 2")
+    result="อ้วน / โรคอ้วนระดับ 2"
 else:
-    print("อ้วนมาก / โรคอ้วนระดับ 3")
+    result="อ้วนมาก / โรคอ้วนระดับ 3"
+print(result)
