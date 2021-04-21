@@ -13,7 +13,7 @@ bmi = weight/(hight**2)
 result=""
 print("BMI = ", bmi)
 
-if bmi < 18.50:
+if bmi < 18.50 and bmi > 0:
     result="น้ำหนักน้อย / ผอม"
 elif bmi >= 18.50 and bmi <= 22.90:
     result="ปกติ (สุขภาพดี)"
