@@ -24,3 +24,4 @@ elif bmi >= 25 and bmi <= 29.90:
 else:
     result="อ้วนมาก / โรคอ้วนระดับ 3"
 print(result)
+ 
