@@ -9,11 +9,12 @@
 if expression: => True OR False
     statement
 '''
-
 age = int(input("ป้อนอายุของคุณ : "))
 name = 'ชิรพล เหมตระการ'
-if age >= 15:
+if age >= 15 and age <= 100:
     print("นาย",name)
-else :
+elif age > 0 :
     print("เด็กชาย",name)
+else:
+    print("Error")
 
